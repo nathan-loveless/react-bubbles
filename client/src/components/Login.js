@@ -24,13 +24,13 @@ const Login = (props) => {
     return (
         <div>
           <form onSubmit={login}>
-            <input
+            Username: <input
               type="text"
               name="username"
               value={credentials.username}
               onChange={handleChange}
             />
-            <input
+            Password<input
               type="password"
               name="password"
               value={credentials.password}
